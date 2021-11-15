@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edf1ed;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    padding: 10px 0 5px 0px;
+}
+
+
+.header-index {
+  background-color: aquamarine;
+  
+}
+.header-bookmarks {
+  background-color: #cf2fed;
+  
+}
+.header-create {
+  background-color: #00a16e;
+  
+}
+.header-profile {
+  background-color: #edac00;
+  
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.question {
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+
+}
+
+.question-grid--1 {
+    grid-column: 1 / 5;
+    justify-self: center;
+}
+
+.question-grid--2 {
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    grid-column: 2 / 4;
+    margin: 10px;
+}
+
+.question-grid--3 {
+    padding: 0;
+    grid-column: span 5;
+    grid-row: 3 / 4;
+    margin: 0;
+}
+
+.tag-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+} 
+
+.tag-li--1 {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  padding: 5px;
+}
+.tag-li--2 {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  padding: 5px;
+}
+.tag-li--3 {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  padding: 5px;
+}
+.tag-li--4 {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  padding: 5px;
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0 10px 0;
+}
+
+.footer-index {
+    background-color: aquamarine;
+}
+.footer-bookmarks {
+    background-color: #cf2fed;
+}
+.footer-create {
+    background-color: #00a16e;
+}
+.footer-profile {
+    background-color: #edac00;
+}
