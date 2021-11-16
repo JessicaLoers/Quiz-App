@@ -20,60 +20,44 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <header class="header-create" >
+    <header class="header-create">
       <h1>Create a Question</h1>
     </header>
 
     <main>
+      <form metho="GET"></form>
+      <label for="question">Your Quiz Question</label><br />
+      <input
+        type="text"
+        name="question"
+        id="question"
+        placeholder="add a question"
+        style="height: 100px; width: 90%"
+      />
       <div>
-        <form method="GET">
-            <div>
-              <label for="question">Your Quiz Question</label><br />
-              <input
-                type="text"
-                name="question"
-                id="question"
-                placeholder="add a question"
-                style="height: 100px; width: 90%"
-              />
-            </div>
-            <div>
-              <label for="answer">Answer of your Question</label><br />
-              <input
-                type="text"
-                name="answer"
-                id="answer"
-                placeholder="add the Answer"
-                style="height: 100px; width: 90%"
-              />
-            </div>
-            <div>
-                <ul>
-                    <li>Tag 1</li>
-                    <li>Tag 2</li>
-                    <li>Tag 3</li>
-                    <li>Tag 4</li>
-                </ul>
-            </div>
-
-            <button>Submit</button>
-
+        <ul>
+          <li>Tag 1</li>
+          <li>Tag 2</li>
+          <li>Tag 3</li>
+          <li>Tag 4</li>
+        </ul>
       </div>
+
+      <button>Submit</button>
     </main>
     <footer class="footer-create">
-        <a href="/index.html">
-            <span class="material-icons" style="color: #333;">home</span>
-          </a>
-          <a href="/bookmarks.html">
-            <span class="material-icons" style="color: #333;">bookmark</span>
-          </a>
-          <a href="/create.html">
-            <span class="material-icons" style="color: #333;">add_circle</span>
-          </a>
-          <a href="/profile.html">
-            <span class="material-icons" style="color: #333;">face</span>
-          </a>
-          
+      <a href="/index.html">
+        <span class="material-icons" style="color: #333">home</span>
+      </a>
+      <a href="/bookmarks.html">
+        <span class="material-icons" style="color: #333">bookmark</span>
+      </a>
+      <a href="/create.html">
+        <span class="material-icons" style="color: #333">add_circle</span>
+      </a>
+      <a href="/profile.html">
+        <span class="material-icons" style="color: #333">face</span>
+      </a>
     </footer>
   </body>
 </html>

@@ -25,27 +25,27 @@
     </header>
     <main>
       <!-- Card nur mit Frage-->
-      <div class="question">
-        <div class="question-grid--1">
+      <div class="question-card">
+        <div class="question-card__question">
           <h2>Die große Pilzfrage</h2>
           <p>Welcher Pilz ist einer der giftigste der Welt?</p>
         </div>
-        <button class="question-grid--2">Antwort zeigen</button>
-        <ul class="question-grid--3">
-          <div class="tag-list">
+        <button class="question-card_button">Antwort zeigen</button>
+        <ul class="question-card__list">
+          <div class="question-card__list-list">
             <li class="tag-li--1">Wald</li>
             <li class="tag-li--2">Natur</li>
             <li class="tag-li--3">Pilz</li>
             <li class="tag-li--4">Erde</li>
           </div>
         </ul>
-        <a href="#" class="bookmark-question">
+        <a href="#" class="card__bookmark">
           <span class="material-icons" style="color: #333">bookmark</span>
         </a>
       </div>
       <!-- Card nur mit Frage und Antwort in <summary>-->
-      <div class="question">
-        <div class="question-grid--1">
+      <div class="question-card">
+        <div class="question-card__question">
           <h2>Die große Pilzfrage</h2>
           <p>Welcher Pilz ist einer der giftigste der Welt?</p>
         </div>
@@ -56,79 +56,57 @@
             Pilz der Welt. Selbst geringe Mengen können zum Leberversagen
           </p>
         </details>
-        <ul class="question-grid--3">
-          <div class="tag-list">
+        <ul class="question-card__list">
+          <div class="question-card__list-list">
             <li class="tag-li--1">Wald</li>
             <li class="tag-li--2">Natur</li>
             <li class="tag-li--3">Pilz</li>
             <li class="tag-li--4">Erde</li>
           </div>
         </ul>
-        <a href="#" class="bookmark-question">
+        <a href="#" class="card__bookmark">
           <span class="material-icons" style="color: #333">bookmark</span>
         </a>
       </div>
 
-
-
- <!-- BEM Anitas Karte-->
-      <article class="question-card">
-        <p class="question-card__question">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, esse!</p>
-        <p class="question-card__answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, in.</p>
-        <button class="question-card__button">show answer</button>
-        <button class="question-card__button question-card__button--signal">hide answer</button>
-        <ul class="question-card__list">
-          <li >tag1</li>
-          <li>tag2</li>
-          <li>tag3</li>
-          <li>tag4</li>
-        </ul>
-      </article>
-
-
-
       <!-- Card mit einem Row mehr für Antwortfeld-->
-      <div class="question-answer">
-        <div class="question-grid--1">
+      <div class="question-card__answer">
+        <div class="question-card__question">
           <h2>Die große Pilzfrage</h2>
           <p>Welcher Pilz ist einer der giftigste der Welt?</p>
         </div>
-        <button class="question-grid--2">Antwort verbergen</button>
-        <div class="question-grid--1">
+        <button class="question-card_button">Antwort verbergen</button>
+        <div class="question-card__question">
           <p>
             Der Grüne Knollenblätterpilz (Amanita phalloides) ist der giftigste
             Pilz der Welt. Selbst geringe Mengen können zum Leberversagen.
           </p>
         </div>
-        <ul class="question-grid--3-2">
-          <div class="tag-list">
+        <ul class="question-card__list--2">
+          <div class="question-card__list-list">
             <li class="tag-li--1">Wald</li>
             <li class="tag-li--2">Natur</li>
             <li class="tag-li--3">Pilz</li>
             <li class="tag-li--4">Erde</li>
           </div>
         </ul>
-        <a href="#" class="bookmark-question">
+        <a href="#" class="card__bookmark">
           <span class="material-icons" style="color: #333">bookmark</span>
         </a>
       </div>
-
-
-
-
     </main>
     <footer class="footer-index">
       <a href="/index.html">
-        <span class="material-icons home-icon" style="color: #333">home</span>
+        <span class="material-icons icons_footer home-icon">home</span>
       </a>
       <a href="/bookmarks.html">
-        <span class="material-icons icon-bookmarks" style="color: #333">bookmark</span>
+        <span class="material-icons icons_footer icon-bookmarks">bookmark</span>
       </a>
       <a href="/create.html">
-        <span class="material-icons icon-create" style="color: #333">add_circle</span>
+        <span class="material-icons icons_footer icon-create">add_circle</span>
       </a>
       <a href="/profile.html">
-        <span class="material-icons icon-profile" style="color: #333">face</span>
+        <span class="material-icons icons_footer icon-profile">face</span>
       </a>
     </footer>
   </body>
