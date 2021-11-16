@@ -5,31 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <title>profile</title>
   </head>
-
-  <header>
+<main>
+  <header class="header-profile" >
     <h1>Your Profile</h1>
   </header>
-  <main>
-    <div>
-      <img src="" alt="your profile image" />
+
+    <div class="profile">
+      <img src="/images/profile-face.png"
+      alt="your profile image" 
+      class="profile-image"
+      style="width: 80px; height: 80px;"/>
       <p>Jessica</p>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sequi
         nisi commodi, aperiam vel illum.
       </p>
       <div>
-        <ul>
-            <h3>Deine Stärken</h3>
-            <li>Wissenschaft</li>
-            <li>Sport</li>
-            <li>Politik</li>
-            <li>Natur</li>
+        <h3>Deine Stärken</h3>
+        <ul class="tag-list your-skills">
+            <li class="tag-li--1">Wissenschaft</li>
+            <li class="tag-li--2">Sport</li>
+            <li class="tag-li--3">Politik</li>
+            <li class="tag-li--4">Natur</li>
         </ul>
     </div>
-    <button>Logot</button>
+    <button class="question-grid--2">Logot</button>
 
-
+    <footer class="footer-profile">
+        <a href="/index.html">
+            <span class="material-icons" style="color: #333;">home</span>
+          </a>
+          <a href="/bookmarks.html">
+            <span class="material-icons" style="color: #333;">bookmark</span>
+          </a>
+          <a href="/create.html">
+            <span class="material-icons" style="color: #333;">add_circle</span>
+          </a>
+          <a href="/profile.html">
+            <span class="material-icons" style="color: #333;">face</span>
+          </a>
+    </footer>
   </main>
 </html>

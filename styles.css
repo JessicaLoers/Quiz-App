@@ -13,25 +13,20 @@ body {
 }
 
 header {
-    padding: 10px 0 5px 0px;
+  padding: 10px 0 5px 0px;
 }
-
 
 .header-index {
   background-color: aquamarine;
-  
 }
 .header-bookmarks {
   background-color: #cf2fed;
-  
 }
 .header-create {
   background-color: #00a16e;
-  
 }
 .header-profile {
   background-color: #edac00;
-  
 }
 
 h1 {
@@ -39,45 +34,67 @@ h1 {
   text-transform: uppercase;
 }
 
+/* css für index.html */
 
 .question {
-    height: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 3px;
-    display: grid;
-    grid-template-columns: repeat(4, 2fr);
-    grid-template-rows: 1fr 0.5fr 0.5fr;
-    margin: 10px 20px 10px 20px;
-    padding: 10px 20px 10px 20px;
-    text-align: center;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: 1fr 0.5fr 0.5fr;
+  margin: 10px 20px 10px 20px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
 
+.question-answer {
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr;
+  margin: 10px 20px 10px 20px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
 }
 
 .question-grid--1 {
-    grid-column: 1 / 5;
-    justify-self: center;
+  grid-column: 1 / 5;
+  justify-self: center;
 }
 
+/* button style */
 .question-grid--2 {
-    height: 40px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 50px;
-    grid-column: 2 / 4;
-    margin: 10px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  grid-column: 2 / 4;
+  margin: 10px;
+}
+.question-grid--2-2 {
+  font-weight: 600;
+  grid-column: 1 / 6;
+  margin: 10px;
 }
 
 .question-grid--3 {
-    padding: 0;
-    grid-column: span 5;
-    grid-row: 3 / 4;
-    margin: 0;
+  padding: 0;
+  grid-column: span 5;
+  grid-row: 3 / 4;
 }
 
+.question-grid--3-2 {
+  padding: 0;
+  grid-column: span 5;
+  grid-row: 4 / 5;
+}
 .tag-list {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-} 
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
 
 .tag-li--1 {
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -100,7 +117,21 @@ h1 {
   padding: 5px;
 }
 
+/* css für profile.html */
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+.profile-image {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+}
 
+.your-skills {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
 
 footer {
   display: flex;
@@ -112,14 +143,35 @@ footer {
 }
 
 .footer-index {
-    background-color: aquamarine;
+  background-color: aquamarine;
 }
 .footer-bookmarks {
-    background-color: #cf2fed;
+  background-color: #cf2fed;
 }
 .footer-create {
-    background-color: #00a16e;
+  background-color: #00a16e;
 }
 .footer-profile {
-    background-color: #edac00;
+  background-color: #edac00;
 }
+
+
+
+ .icon-home {
+  color :green;
+}
+/*
+.icon-home:active {
+  color: rgb(230, 13, 49);
+}
+
+.icon-home:hover {
+  color: pink;
+}
+
+.icon-home:visited {
+  color: #edac00;
+}
+.icon-home:link {
+  color: #bb227b;
+} */
