@@ -1,4 +1,5 @@
-* {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -140,6 +141,7 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 15px 0 10px 0;
+  
 }
 
 .footer-index {
@@ -159,6 +161,7 @@ footer {
 
  .icon-home {
   color :green;
+  width: 25%;
 }
 /*
 .icon-home:active {
@@ -175,3 +178,20 @@ footer {
 .icon-home:link {
   color: #bb227b;
 } */
+
+.question-card {
+  background-color: lawngreen;
+}
+
+.question-card__list li {
+  list-style: none;
+}
+
+.question-card__button {
+  padding: 20px;
+  
+}
+.question-card__button--signal {
+  background-color: red;
+
+}
