@@ -68,6 +68,17 @@ h1 {
   text-align: center;
 }
 
+
+.card__bookmark--test {
+  background-color: yellow;
+  position: absolute;
+  right: -10px;
+  top: -20px;
+  margin: 0;
+  padding: 0;
+}
+
+
 .question-card__answer {
   height: 100%;
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -149,12 +160,15 @@ background-color: violet;
   padding: 5px;
 }
 
+/* bezieht sich auf das Eltern Element, dass auch ein position: relative; oder position: absolut; braucht */
 .card__bookmark {
   font-size: 3em;
   position: absolute;
   right: 10px;
   top: -10px;
 }
+
+
 
 footer {
   display: flex;
