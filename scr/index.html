@@ -24,76 +24,66 @@
       <h1>Super Quiz App</h1>
     </header>
     <main>
-      <!-- Card nur mit Frage-->
-      <div class="question-card">
-        <div class="question-card__question">
-          <h2>Die große Pilzfrage</h2>
-          <p>Welcher Pilz ist einer der giftigste der Welt?</p>
-        </div>
-        <button class="question-card_button">Antwort zeigen</button>
-        <ul class="question-card__list">
-          <div class="question-card__list-list">
-            <li class="tag-li--1">Wald</li>
-            <li class="tag-li--2">Natur</li>
-            <li class="tag-li--3">Pilz</li>
-            <li class="tag-li--4">Erde</li>
-          </div>
-        </ul>
-        <a href="#" class="card__bookmark--test">
-          <span class="material-icons" style="font-size:xx-large;">bookmark</span>
-        </a>
-      </div>
-      <!-- Card nur mit Frage und Antwort in <summary>-->
-      <div class="question-card">
-        <div class="question-card__question">
-          <h2>Die große Pilzfrage</h2>
-          <p>Welcher Pilz ist einer der giftigste der Welt?</p>
-        </div>
-        <details class="question-grid--2-2">
-          <summary>Antwort zeigen</summary>
-          <p>
-            Der Grüne Knollenblätterpilz (Amanita phalloides) ist der giftigste
-            Pilz der Welt. Selbst geringe Mengen können zum Leberversagen
-          </p>
-        </details>
-        <ul class="question-card__list">
-          <div class="question-card__list-list">
-            <li class="tag-li--1">Wald</li>
-            <li class="tag-li--2">Natur</li>
-            <li class="tag-li--3">Pilz</li>
-            <li class="tag-li--4">Erde</li>
-          </div>
-        </ul>
-        <a href="#" class="card__bookmark">
-          <span class="material-icons" style="color: #333">bookmark</span>
-        </a>
-      </div>
 
-      <!-- Card mit einem Row mehr für Antwortfeld-->
-      <div class="question-card__answer">
+      <section class="question-card">
         <div class="question-card__question">
           <h2>Die große Pilzfrage</h2>
-          <p>Welcher Pilz ist einer der giftigste der Welt?</p>
+          <p>Welcher Giftpilz ist einer der giftigste Pilz der Welt?</p>
         </div>
-        <button class="question-card_button">Antwort verbergen</button>
-        <div class="question-card__question">
+        <button class="question-card_button state-hide">
+          hide
+        </button>
+        <div class="question-card__answer">
           <p>
             Der Grüne Knollenblätterpilz (Amanita phalloides) ist der giftigste
             Pilz der Welt. Selbst geringe Mengen können zum Leberversagen.
           </p>
         </div>
-        <ul class="question-card__list--2">
-          <div class="question-card__list-list">
-            <li class="tag-li--1">Wald</li>
-            <li class="tag-li--2">Natur</li>
-            <li class="tag-li--3">Pilz</li>
-            <li class="tag-li--4">Erde</li>
-          </div>
-        </ul>
+        <div class="question-card__tags">
+          <ul class="card__tags">
+            <li>Wald</li>
+            <li>Natur</li>
+            <li>Pilz</li>
+            <li>Erde</li>
+          </ul>
+        </div>
         <a href="#" class="card__bookmark">
-          <span class="material-icons" style="color: #333">bookmark</span>
+          <span class="material-icons" style="font-size: xxx-large"
+            >bookmark</span
+          >
         </a>
-      </div>
+      </section>
+
+      <section class="question-card">
+        <div class="question-card__question">
+          <h2>Die große Pilzfrage</h2>
+          <p>Welcher Giftpilz ist einer der giftigste Pilz der Welt?</p>
+        </div>
+        <button class="question-card_button state-hide">
+          hide
+        </button>
+        <div class="question-card__answer">
+          <p>
+            Der Grüne Knollenblätterpilz (Amanita phalloides) ist der giftigste
+            Pilz der Welt. Selbst geringe Mengen können zum Leberversagen.
+          </p>
+        </div>
+        <div class="question-card__tags">
+          <ul class="card__tags">
+            <li>Wald</li>
+            <li>Natur</li>
+            <li>Pilz</li>
+            <li>Erde</li>
+          </ul>
+        </div>
+        <a href="#" class="card__bookmark">
+          <span class="material-icons" style="font-size: xxx-large"
+            >bookmark</span
+          >
+        </a>
+      </section>
+
+
     </main>
     <footer class="footer-index">
       <a href="/scr/index.html">

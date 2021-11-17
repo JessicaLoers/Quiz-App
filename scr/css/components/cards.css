@@ -1,98 +1,67 @@
-.question-card {
+  
+  .question-card {
+    background-color: #fcfcfc;
     height: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 3px;
-    display: grid;
-    position: relative;
-    grid-template-columns: repeat(4, 2fr);
-    grid-template-rows: 1fr 0.5fr 0.5fr;
-    margin: 10px 20px 10px 20px;
-    padding: 10px 20px 10px 20px;
-    text-align: center;
-  }
-  
-  
-  .card__bookmark--test {
-    background-color: yellow;
-    position: absolute;
-    right: -10px;
-    top: -20px;
-    margin: 0;
-    padding: 0;
-  }
-  
-  
-  .question-card__answer {
-    height: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 3px;
     display: grid;
     position: relative;
     grid-template-columns: repeat(4, 2fr);
     grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr;
-    margin: 10px 20px 10px 20px;
+    margin: 10px 20px 25px 20px;
     padding: 10px 20px 10px 20px;
     text-align: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
   }
   
-  .question-card__question {
+  .question-card__question,
+  .question-card__answer {
     grid-column: 1 / 5;
     justify-self: center;
   }
   
- 
-  
-  .question-grid--2-2 {
-    font-weight: 600;
-    grid-column: 1 / 6;
-    margin: 10px;
-  }
-  
-  /* tag style */
-  .question-card__list
-  {
-    padding: 0;
-    grid-column: span 5;
-    grid-row: 3 / 4;
-  }
-  
-  .question-card__list--2 {
-    padding: 0;
+  .question-card__tags {
     grid-column: span 5;
     grid-row: 4 / 5;
+    
   }
-  .question-card__list-list,
+  .card__tags,
   .skills__tag {
     display: flex;
     justify-content: space-evenly;
-    list-style: none;
   }
   
-  .tag-li--1 {
-    border: 1px solid rgba(0, 0, 0, 0.5);
+  .card__tags li {
+    font-size: 0.9rem;
+    font-weight: var(--fw-500);
+    background-color: var(--profile);    
     border-radius: 2px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     padding: 5px;
+    width: 50px;
   }
-  .tag-li--2 {
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
-    padding: 5px;
+  .card__tags li:hover {
+    transform: scale(1.1);
   }
-  .tag-li--3 {
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
-    padding: 5px;
+
+  .material-icons {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    
+
   }
-  .tag-li--4 {
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
-    padding: 5px;
-  }
+
   
-  /* bezieht sich auf das Eltern Element, dass auch ein position: relative; oder position: absolut; braucht */
   .card__bookmark {
-    font-size: 3em;
+    color: #333;
     position: absolute;
-    right: 10px;
-    top: -10px;
+    right: -4px;
+    top: -20px;
+    margin: 0;
+    padding: 0;
+    
   }
+
+  .card__bookmark:hover {
+    color: var(--bookmark);
+    transform: scale(1.1);
+  }
+
