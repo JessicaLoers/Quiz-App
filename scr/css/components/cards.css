@@ -1,0 +1,98 @@
+.question-card {
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+  }
+  
+  
+  .card__bookmark--test {
+    background-color: yellow;
+    position: absolute;
+    right: -10px;
+    top: -20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .question-card__answer {
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+  }
+  
+  .question-card__question {
+    grid-column: 1 / 5;
+    justify-self: center;
+  }
+  
+ 
+  
+  .question-grid--2-2 {
+    font-weight: 600;
+    grid-column: 1 / 6;
+    margin: 10px;
+  }
+  
+  /* tag style */
+  .question-card__list
+  {
+    padding: 0;
+    grid-column: span 5;
+    grid-row: 3 / 4;
+  }
+  
+  .question-card__list--2 {
+    padding: 0;
+    grid-column: span 5;
+    grid-row: 4 / 5;
+  }
+  .question-card__list-list,
+  .skills__tag {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+  
+  .tag-li--1 {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding: 5px;
+  }
+  .tag-li--2 {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding: 5px;
+  }
+  .tag-li--3 {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding: 5px;
+  }
+  .tag-li--4 {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding: 5px;
+  }
+  
+  /* bezieht sich auf das Eltern Element, dass auch ein position: relative; oder position: absolut; braucht */
+  .card__bookmark {
+    font-size: 3em;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+  }

@@ -1,0 +1,15 @@
+ /* button style */
+ .question-card_button,
+ .form__btn, 
+ .profile__btn {
+   background-color: yellow;
+   height: 40px;
+   border: 1px solid rgba(0, 0, 0, 0.5);
+   border-radius: 50px;
+   grid-column: 2 / 4;
+   margin: 10px;
+ }
+ 
+ .btn:hover {
+ background-color: violet;
+ }

@@ -1,0 +1,45 @@
+:root {
+  --index: aquamarine;
+  --bookmark: #cf2fed;
+  --create: #00a16e;
+  --profile: #edac00;
+  --light: #edf1ed;
+  --dark: #333;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--light);
+  color: var(--dark);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  margin: 100px 0 100px 0;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  /* header and footer colors*/
+.header-index,
+.footer-index {
+  background-color: var(--index);
+}
+.header-bookmarks,
+.footer-bookmarks {
+  background-color: var(--bookmark);
+}
+.header-create,
+.footer-create {
+  background-color: var(--create);
+}
+.header-profile,
+.footer-profile {
+  background-color: var(--profile);
+}
