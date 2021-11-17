@@ -87,13 +87,21 @@ h1 {
 }
 
 /* button style */
-.question-card_button {
+.question-card_button,
+.form__btn, 
+.profile__btn {
+  background-color: yellow;
   height: 40px;
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 50px;
   grid-column: 2 / 4;
   margin: 10px;
 }
+
+.btn:hover {
+background-color: violet;
+}
+
 .question-grid--2-2 {
   font-weight: 600;
   grid-column: 1 / 6;
@@ -101,7 +109,8 @@ h1 {
 }
 
 /* tag style */
-.question-card__list {
+.question-card__list
+{
   padding: 0;
   grid-column: span 5;
   grid-row: 3 / 4;
@@ -112,7 +121,8 @@ h1 {
   grid-column: span 5;
   grid-row: 4 / 5;
 }
-.question-card__list-list {
+.question-card__list-list,
+.skills__tag {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
@@ -160,7 +170,7 @@ footer {
 
 .icons_footer {
   color: var(--dark);
-  font-size: 2.5em;
+  font-size: 2.2rem;
 }
 
 /* css für profile.html */

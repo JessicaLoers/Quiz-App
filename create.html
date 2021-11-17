@@ -19,13 +19,14 @@
     <title>create</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
+  
   <body>
     <header class="header-create">
       <h1>Create a Question</h1>
     </header>
 
     <main>
-      <form metho="GET"></form>
+      <form method="GET"></form>
       <label for="question">Your Quiz Question</label><br />
       <input
         type="text"
@@ -33,30 +34,45 @@
         id="question"
         placeholder="add a question"
         style="height: 100px; width: 90%"
+        class="form"
       />
-      <div>
-        <ul>
-          <li>Tag 1</li>
-          <li>Tag 2</li>
-          <li>Tag 3</li>
-          <li>Tag 4</li>
+
+      <form method="GET"></form>
+      <label for="answer">Your Quiz Answer</label><br />
+      <input
+        type="text"
+        name="answer"
+        id="answer"
+        placeholder="add a answer"
+        style="height: 100px; width: 90%"
+        class="form"
+      />
+
+
+      <div class="skills">
+        <ul class="skills__tag">
+          <h3>Choose your Skills</h3>
+          <li class="tag-li--1">Tag 1</li>
+          <li class="tag-li--2">Tag 2</li>
+          <li class="tag-li--3">Tag 3</li>
+          <li class="tag-li--4">Tag 4</li>
         </ul>
       </div>
 
-      <button>Submit</button>
+      <button class="form__btn">Submit</button>
     </main>
     <footer class="footer-create">
       <a href="/index.html">
-        <span class="material-icons" style="color: #333">home</span>
+        <span class="material-icons icons_footer home-icon">home</span>
       </a>
       <a href="/bookmarks.html">
-        <span class="material-icons" style="color: #333">bookmark</span>
+        <span class="material-icons icons_footer home-icon" >bookmark</span>
       </a>
       <a href="/create.html">
-        <span class="material-icons" style="color: #333">add_circle</span>
+        <span class="material-icons icons_footer home-icon" >add_circle</span>
       </a>
       <a href="/profile.html">
-        <span class="material-icons" style="color: #333">face</span>
+        <span class="material-icons icons_footer home-icon">face</span>
       </a>
     </footer>
   </body>
