@@ -1,8 +1,16 @@
 :root {
-  --index: aquamarine;
-  --bookmark: #cf2fed;
-  --create: #00a16e;
-  --profile: #edac00;
+  --index-primary: #307fe2;
+  --index-primary2: #307fe2;
+  --index-danger: #1e22aa;
+  --index-light: #a7c6ed;
+  --index-dark: #002e5d;
+  
+  --btn: #daaa00;
+  --btn2: #44b59d;
+
+  --bookmark-primary: #44b59d;
+  --create-primary: #00b74f;
+  --profile-primary: #ff8200;
   --light: #edf1ed;
   --dark: #333;
 
@@ -13,8 +21,6 @@
   --fw-700: 700;
   --fw-800: 800;
   --fw-900: 900;
-  
-  
 }
 
 *::before,
@@ -66,18 +72,18 @@ h1 {
   /* header and footer colors*/
 .header-index,
 .footer-index {
-  background-color: var(--index);
-  background-image: linear-gradient(transparent 70%,#6fe4bd);
+  background-color: var(--index-primary);
+  background-image: linear-gradient(transparent 70%,#1b6fd6);
 }
 .header-bookmarks,
 .footer-bookmarks {
-  background-color: var(--bookmark);
+  background-color: var(--bookmark-primary);
 }
 .header-create,
 .footer-create {
-  background-color: var(--create);
+  background-color: var(--create-primary);
 }
 .header-profile,
 .footer-profile {
-  background-color: var(--profile);
+  background-color: var(--profile-primary);
 }
