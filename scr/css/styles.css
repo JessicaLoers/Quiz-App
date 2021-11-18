@@ -1,8 +1,9 @@
-@import "/scr/css/base.css";
-@import "/scr/css/components/buttons.css";
-@import "/scr/css/components/cards.css";
-@import "/scr/css/components/footer.css";
-@import "/scr/css/components/form.css";
-@import "/scr/css/components/header.css";
-@import "/scr/css/components/profile.css";
-@import "/scr/css/components/utilities.css";
+@import "base.css";
+@import "components/buttons.css";
+@import "components/cards.css";
+@import "components/footer.css";
+@import "components/form.css";
+@import "components/header.css";
+@import "components/profile.css";
+@import "components/utilities.css";
+
