@@ -25,27 +25,34 @@
     </header>
     <main>
       <section class="profile">
-        <img
-          src="/scr/images/profile-face.png"
-          alt="your profile image"
-          class="profile__image"
-          style="width: 80px; height: 80px"
-        />
-        <p>Jessica</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sequi
-          nisi commodi, aperiam vel illum.
-        </p>
+        <section class="profile__aboutme">
+          <img
+            src="/scr/images/profile-face.png"
+            alt="your profile image"
+            class="profile__image"
+            style="width: 100px; height: 100px"
+          />
+          <p class="profile__name">Jane Doe</p>
+          <p class="profile__description">
+            The itsy bitsy spider climbed up the waterspout. Down came the rain
+            and washed the spider out. Out came the sun and dried up all the
+            rain and the itsy bitsy spider climbed up the spout again.
+          </p>
+        </section>
 
-        <h3>Deine Stärken</h3>
-        <ul class="profile__skills">
-          <li class="tag-li--1">Wissenschaft</li>
-          <li class="tag-li--2">Sport</li>
-          <li class="tag-li--3">Politik</li>
-          <li class="tag-li--4">Natur</li>
-        </ul>
+        <section>
+          <ul class="profile__skills">
+            <li class="tag-li--1">Wissenschaft</li>
+            <li class="tag-li--2">Sport</li>
+            <li class="tag-li--3">Politik</li>
+            <li class="tag-li--4">Natur</li>
+          </ul>
+        </section>
+
+        <section class="profile__button">
+          <button>Logout</button>
+        </section>
       </section>
-      <button class="btn profile__btn">Logout</button>
     </main>
     <footer class="footer-profile">
       <a href="/scr/index.html">

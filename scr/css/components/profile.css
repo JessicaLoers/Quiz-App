@@ -1,16 +1,38 @@
-/* css für profile.html */
 .profile {
-    display: flex;
-    flex-direction: column;
-  }
-  .profile__image {
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 100px;
-  }
-  
-  .profile__skills {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-  }
-  
+  margin: 1rem;
+  padding: 1rem;
+}
+.profile__image {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+}
+
+.profile__name {
+  font-size: 1.8rem;
+  font-weight: var(--fw-800);
+  margin: 0 1rem;
+}
+
+.profile__description {
+  text-align: center;
+
+}
+.profile__aboutme {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-bottom: 1.8rem;
+}
+
+.profile__skills {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile__skills li {
+  color: #fcfcfc;
+  background-color: var(--profile-btn);
+  padding: 0.5rem;
+}
+
+

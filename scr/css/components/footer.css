@@ -1,16 +1,16 @@
 footer {
-    display: flex;
-    justify-content: space-evenly;
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    flex-grow: 3;
-    width: 100%;
-    padding: 15px 0 10px 0;
-  }
-  
-  .icons_footer {
-    color: var(--dark);
-    font-size: 2.2rem;
-  }
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-grow: 3;
+  width: 100%;
+  padding: 15px 0 10px 0;
+}
+
+.icons_footer {
+  color: var(--dark);
+  font-size: 2.2rem;
+}
