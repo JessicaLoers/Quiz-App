@@ -53,10 +53,17 @@
   }
 
   .card__bookmark:hover {
-    color: tomato;
     transform: scale(1.1);
   }
 
-  .answer--hidden {
+  .bookmark-active {
+    color: tomato;
+  }
+
+  .hide {
     display: none;
+  }
+
+  .show {
+    display: block;
   }
