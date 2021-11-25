@@ -1,16 +1,15 @@
-let buttons = document.querySelectorAll(".question-card_button");
+let buttons = document.querySelectorAll(".question-card__button");
 let answers = document.querySelectorAll(".question-card__answer");
 
-let bookmarks = document.querySelectorAll('.card__bookmark')
+let bookmarks = document.querySelectorAll(".card__bookmark");
 
 // checkpoint
 console.log(buttons);
 console.log(bookmarks);
 
+buttons.forEach((button, index) => { // forEach mit Index
+  console.log(index); // index: buttons
 
-buttons.forEach((button, index) => { 
-  
-  console.log(index); // index: array answers
 
   button.addEventListener("click", () => {
     let answer = answers[index];
@@ -23,9 +22,8 @@ buttons.forEach((button, index) => {
   });
 });
 
-
-bookmarks.forEach((bookmark, index) => {
-  bookmark.addEventListener('click', () => {
-    bookmark.classList.toggle('bookmark-active')
-   })
-})
+bookmarks.forEach((bookmark) => {
+  bookmark.addEventListener("click", () => {
+    bookmark.classList.toggle("bookmark-active");
+  });
+});
