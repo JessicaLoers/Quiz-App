@@ -16,6 +16,8 @@
       rel="stylesheet"
     />
 
+    <script src="./js/index.js" defer></script>
+
     <title>quiz-home</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -24,48 +26,27 @@
       <h1>Super Quiz App</h1>
     </header>
     <main>
+      <!-- question card--1 -->
       <section class="question-card">
         <div class="question-card__question">
           <a href="#" class="card__bookmark">
             <span class="material-icons" style="font-size: xxx-large"
-              >bookmark</span>
+              >bookmark</span
+            >
           </a>
           <h2>Die große Pilzfrage</h2>
           <p>Welcher Giftpilz ist einer der giftigste Pilz der Welt?</p>
         </div>
-        <button class="question-card_button state-show">Antwort zeigen</button>
 
-        <div class="question-card__tags">
-          <ul class="card__tags">
-            <li>Wald</li>
-            <li>Natur</li>
-            <li>Pilz</li>
-            <li>Erde</li>
-          </ul>
-        </div>
-      </section>
+        <button class="question-card_button">show answer</button>
 
-      <section class="question-card">
-        <div class="question-card__question">
-          <a href="#" class="card__bookmark">
-            <span class="material-icons" style="font-size: xxx-large"
-              >bookmark</span>
-          </a>
-          <h2>Die große Pilzfrage</h2>
-          <p>Welcher Giftpilz ist einer der giftigste Pilz der Welt?</p>
-        </div>
-        
-        <button class="question-card_button state-hide">
-          Antwort verbergen
-        </button>
-        
-        <div class="question-card__answer">
+        <div class="question-card__answer answer--hidden">
           <p>
             Der Grüne Knollenblätterpilz (Amanita phalloides) ist der giftigste
             Pilz der Welt. Selbst geringe Mengen können zum Leberversagen.
           </p>
         </div>
-        
+
         <div class="question-card__tags">
           <ul class="card__tags">
             <li>Wald</li>
@@ -74,11 +55,72 @@
             <li>Erde</li>
           </ul>
         </div>
-        
-       
       </section>
+   
+         <!-- question card--2 -->
+         <section class="question-card">
+          <div class="question-card__question">
+            <a href="#" class="card__bookmark">
+              <span class="material-icons" style="font-size: xxx-large"
+                >bookmark</span
+              >
+            </a>
+            <h2>Die große Pilzfrage</h2>
+            <p>Welcher Giftpilz ist einer der giftigste Pilz der Welt?</p>
+          </div>
+  
+          <button class="question-card_button">show answer</button>
+  
+          <div class="question-card__answer answer--hidden">
+            <p>
+              Der Grüne Knollenblätterpilz (Amanita phalloides) ist der giftigste
+              Pilz der Welt. Selbst geringe Mengen können zum Leberversagen.
+            </p>
+          </div>
+  
+          <div class="question-card__tags">
+            <ul class="card__tags">
+              <li>Wald</li>
+              <li>Natur</li>
+              <li>Pilz</li>
+              <li>Erde</li>
+            </ul>
+          </div>
+        </section>
+   
+              <!-- question card--3 -->
+      <section class="question-card">
+        <div class="question-card__question">
+          <a href="#" class="card__bookmark">
+            <span class="material-icons" style="font-size: xxx-large"
+              >bookmark</span
+            >
+          </a>
+          <h2>Die große Pilzfrage</h2>
+          <p>Welcher Giftpilz ist einer der giftigste Pilz der Welt?</p>
+        </div>
+
+        <button class="question-card_button">show answer</button>
+
+        <div class="question-card__answer answer--hidden">
+          <p>
+            Der Grüne Knollenblätterpilz (Amanita phalloides) ist der giftigste
+            Pilz der Welt. Selbst geringe Mengen können zum Leberversagen.
+          </p>
+        </div>
+
+        <div class="question-card__tags">
+          <ul class="card__tags">
+            <li>Wald</li>
+            <li>Natur</li>
+            <li>Pilz</li>
+            <li>Erde</li>
+          </ul>
+        </div>
+      </section>
+   
     </main>
-    
+
     <footer class="footer-index">
       <a href="index.html">
         <span class="material-icons icons_footer home-icon">home</span>
